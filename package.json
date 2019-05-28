@@ -1,0 +1,26 @@
+{
+  "name": "storyteller_airtable_syncer",
+  "version": "1.0.0",
+  "description": "# what's this",
+  "main": "index.js",
+  "bin": {
+    "@your_npm_username/storyteller_airtable_load": "bin/storyteller_airtable_load",
+    "storyteller_airtable_load": "bin/storyteller_airtable_load",
+    "@your_npm_username/storyteller_airtable_sync": "bin/storyteller_airtable_sync",
+    "storyteller_airtable_sync": "bin/storyteller_airtable_sync"
+  },
+ 
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/toukubo/storyteller_airtable_syncer.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/toukubo/storyteller_airtable_syncer/issues"
+  },
+  "homepage": "https://github.com/toukubo/storyteller_airtable_syncer#readme"
+}
