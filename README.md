@@ -1,16 +1,22 @@
 # storyteller_airtable_syncer
 
 # what's this 
-
+This works as a plugin to storyteller sync cli tool
 
 # install
+```
+npm install storyteller_airtable_syncer
+```
 
 # run
 ## sync
+```
+storyteller_load -airtable
+```
 
 ## load
 ```
-storyteller_airtable_load
+storyteller_load -airtable
 ```
 
 ## save ( to backend ) 
