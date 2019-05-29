@@ -1,14 +1,8 @@
 {
   "name": "storyteller_airtable_syncer",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "# what's this",
   "main": "index.js",
-  "bin": {
-    "@your_npm_username/storyteller_airtable_load": "bin/storyteller_airtable_load",
-    "storyteller_airtable_load": "bin/storyteller_airtable_load",
-    "@your_npm_username/storyteller_airtable_sync": "bin/storyteller_airtable_sync",
-    "storyteller_airtable_sync": "bin/storyteller_airtable_sync"
-  },
  
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
