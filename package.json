@@ -1,9 +1,8 @@
 {
   "name": "storyteller_airtable_syncer",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "# what's this",
   "main": "index.js",
- 
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -16,5 +15,9 @@
   "bugs": {
     "url": "https://github.com/toukubo/storyteller_airtable_syncer/issues"
   },
-  "homepage": "https://github.com/toukubo/storyteller_airtable_syncer#readme"
+  "homepage": "https://github.com/toukubo/storyteller_airtable_syncer#readme",
+  "dependencies": {
+    "airtable": "^0.6.0",
+    "dotenv": "^8.0.0"
+  }
 }
