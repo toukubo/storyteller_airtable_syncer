@@ -13,13 +13,6 @@ VERB_BASE = STORYTELLER_BASE + "verbs/"
 SENTENCE_BASE = PROJECT_BASE + "sentences/"
 
 
-NOUNS.ID = "nouns"
-PROJECTS.ID = "projects"
-ATTRS.ID = "attrs"
-VERBS.ID = "verbs"
-SENTENCES.ID = "sentences"
-
-
 
 console.log("Target Project : "+PROJECT)
 console.log("PROJECT_BASE : "+PROJECT_BASE)
@@ -30,7 +23,7 @@ console.log("SENTENCE_BASE:" +SENTENCE_BASE)
 
 
 /// # stack
-RESTBASE=env.RESTBASE
+RESTBASE=env.RESTBASE 
 BFF=env.microjs
 LOGIC=env.nodejs
 API_METHOD=env.graphql
