@@ -20,7 +20,7 @@ syncer.exec = function(models,save){
         console.log("model.TABLE_NAME : ")
         console.dir(model.TABLE_NAME)
 
-        base(model.TABLE_NAME).select({view: "Grid view"}).firstPage(function(err, records) {
+        base(model.TABLE_NAME).select({maxRecords: 200,view: "api"}).eachPage(function page(records, fetchNextPage) {
             // console.log("records : ")
             // console.dir(records)
             // console.log("base : ")
@@ -44,8 +44,9 @@ syncer.exec = function(models,save){
                 // console.log("object : ")
                 // console.dir(object)
                 save(object,model)
-                console.log('Retrieved', record.get('name'));
+                console.log('Retrieved '+model.ID, record.get('name'));
             });
+            fetchNextPage();
         });
     });
 }
